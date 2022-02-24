@@ -18,6 +18,7 @@ class Animation:
         self.frame()
 
     def frame(self):
+        #https://stackoverflow.com/questions/22566284/matplotlib-how-to-plot-images-instead-of-points
 
         AU = 1.496e11
         Rsun = 696e6
