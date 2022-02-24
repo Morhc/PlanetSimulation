@@ -1,7 +1,7 @@
 import numpy as np
 
 from Massive_Object import Massive_Object
-from gravity import Gravity
+from gravity import force_gravity
 
 def main():
 
@@ -19,7 +19,7 @@ def main():
     obj1 = Massive_Object(m1, r1, p1, v1, a1) #the Sun
     obj2 = Massive_Object(m2, r2, p2, v2, a2) #the Earth
 
-    F21, F12 = Gravity(obj1, obj2).force_gravity()
+    F21, F12 = force_gravity(obj1, obj2)
 
     print(F12, F21)
 
