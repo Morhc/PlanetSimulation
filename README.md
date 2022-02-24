@@ -8,3 +8,4 @@ Developing a planet simulator!
     - likely to use RK4
 3. Create objects to put in space
     - through classes
+    - can make other planets or moons, maybe try adding a second star? 
