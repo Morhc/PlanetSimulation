@@ -1,7 +1,7 @@
 # PlanetSimulation
 Developing a planet simulator!
 
-![plot](.FirstStep.png)
+![plot](./FirstStep.png)
 
 ## TO-DO
 1. Figure out how to visualize in 3D
