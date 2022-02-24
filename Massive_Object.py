@@ -10,4 +10,12 @@ class Massive_Object:
         self.position = position
         self.velocity = velocity
         self.acceleration = acceleration
-        
+
+    def update_position(self, new_position):
+        self.position = new_position
+
+    def update_velocity(self, new_velocity):
+        self.velocity = new_velocity
+
+    def update_acceleration(self, new_acceleration):
+        self.acceleration = new_acceleration
